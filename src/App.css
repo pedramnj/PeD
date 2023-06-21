@@ -36,3 +36,581 @@
     transform: rotate(360deg);
   }
 }
+
+.title-bar {
+  width: 100%;
+  height: 122px;
+  background-color: #003576;
+}
+
+.clear-fix {
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.relative-pos {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 122px;
+  background: url(https://didattica.polito.it/didattica/assets/jpg/poli_testata.jpg) no-repeat;
+}
+
+.row {
+  margin-bottom: 10px;
+  border-radius: 0px;
+  margin: 0;
+}
+
+.logo-header {
+  width: 50%;
+  height: 100px;
+  padding-top: 4px;
+  position: relative;
+  float: left;
+  
+}
+
+@media (min-width: 768px ){
+
+  .study-plan-button{
+    position:relative;
+    height: 40px;
+    left: 3%;
+    top: 5px;
+    border-color: #ffffff !important;
+    background-color: #ffffff !important;
+    color: #FF7C11  !important;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: medium  !important;
+    font-weight: 600 !important;
+    
+  }
+
+  .logo-header {
+    width: 100%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+  }
+}
+
+.image-container {
+  padding-top: 10px;
+  position: relative;
+  box-sizing: border-box;
+  width: 13rem;
+}
+
+.page-titles{
+  position: absolute;
+  right: 0px;
+  bottom: 5px;
+  text-align: right;
+  color: white;
+}
+
+.page-title {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+.page-subtitle {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif !important;
+}
+
+.nav-bar {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background-color: #FF7C11;
+}
+
+@media only screen and (min-width: 500px )
+{
+.page-title { font-size: 3vw; }
+.page-subtitle { font-size: 2vw;}
+.title-box-list-courses {
+  position: relative;
+  left: 10%;
+  right: 30%;
+  top: 3vw;
+  margin-bottom: 5vw;
+  width: 50%;
+  height: 50px;
+  background-color: #003576;
+  color: white;
+  font-size: 21px;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px;
+  border-radius: 12px;
+  width: 400px;
+}
+
+.title-box-study-plan {
+  position: absolute;
+  left: 10%;
+  right: 30%;
+  height: 50px;
+  border-radius: 12px !important;
+  background-color: #003576;
+  color: white;
+  font-size: 21px;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px;
+  border-radius: 4px;
+  width: 230px;
+}
+
+.line-title-edit{
+  height: 50px;
+  margin: 3vw;
+}
+.header-list-table {
+  margin: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 50px;
+}
+.edit-button {
+  position: absolute;
+  border-radius: 20px;
+  right: 12vw;
+  margin-top: 5px;
+  background-color: #003576 !important;
+}
+
+.delete-button{
+  position: relative;
+  margin-left: 90%;
+  border-radius: 8px !important;
+  height: 30px !important;
+  width: 65px !important;
+  padding: 0px !important;
+}
+
+.credit-limit-box {
+  position: relative;
+  border-radius: 4px;
+  background-color: #003576;
+  margin: 0%;
+  width: 170px;
+  height: 60px;
+  margin-left: 36%;
+}
+
+.credit-font{
+  color: #ffffff;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: medium;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.add-button {
+  position:relative;
+  background-color: #FF7C11 !important;
+  border-color: #FF7C11 !important;
+  border-radius: 4px !important;
+  left: 50%;
+  top: 20%;
+}
+
+.save-button {
+  position:relative;
+  background-color: #69e002 !important;
+  border-color: #69e002 !important;
+  border-radius: 4px !important;
+  left: 47%;
+  top: 20%;
+}
+
+.add-course-button{
+  position: relative;
+  margin: 2%;
+  border: outset !important;
+  border-color: #FF7C11 !important;
+  background-color: #FF7C11 !important;
+  width: 95%;
+}
+
+.header-add-list-table {
+  position: relative;
+  left: 4%;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  width: 98%;
+}
+
+.form-add-responsive{
+  font-size: 20px;
+}
+
+}
+.add-button {
+  background-color: #FF7C11;
+  border-color: #FF7C11;
+  border-radius: 60px;
+}
+@media only screen and (max-width: 500px ){
+  .title-box-list-courses {
+    position: relative;
+    left: 9vw;
+    margin-top: 5vw;
+    width: 70%;
+    height: 50%;
+    background-color: #003576;
+    color: white;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 12px;
+    width: 82vw;
+  }
+
+  .title-box-study-plan{
+    position: absolute;
+    left: 9vw;
+    margin-top: 5px;
+    width: 70%;
+    border-radius: 12px !important;
+    background-color: #003576;
+    color: white;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    border-radius: 4px;
+    width: 44vw;
+  }
+
+  .header-list-table {
+    margin: 1%;
+
+    margin-left: 5vw;
+    margin-right: 0vw; 
+  }
+  .form-responsive {
+    font-size: 14px;
+  }
+
+  .edit-button {
+    position: absolute;
+    border-radius: 20px;
+    right: 12vw;
+    margin-top: 10px;
+    left: 70%;
+    width: 50px;
+    background-color: #003576 !important;
+  }
+
+  .delete-button{
+    position: relative;
+    margin-left: 77%;
+    border-radius: 8px !important;
+    height: 30px !important;
+    width: 65px !important;
+    padding: 0px !important;
+  }
+
+  .line-title-edit{
+    height: 55px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  .credit-limit-box {
+    position: relative;
+    border-radius: 4px;
+    background-color: #003576;
+    margin-top: 10%;
+    width: 150px;
+    height: 50px;
+    margin-left: 30%;
+  }
+
+  .credit-font{
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-top: 5%;
+    padding-left: 10%;
+  }
+  
+  .add-button {
+    position:relative;
+    background-color: #FF7C11 !important;
+    border-color: #FF7C11 !important;
+    border-radius: 4px !important;
+    left: 55%;
+    top: 30%;
+  }
+  
+  .save-button {
+    position:relative;
+    background-color: #69e002 !important;
+    border-color: #69e002 !important;
+    border-radius: 4px !important;
+    left: 5%;
+    top: 30%;
+  }
+
+  .add-course-button{
+    position: relative;
+    margin: 2%;
+    border: outset !important;
+    border-color: #FF7C11 !important;
+    background-color: #FF7C11 !important;
+    width: 95%;
+  }
+
+  .header-add-list-table {
+    position: relative;
+    left: 5%;
+    margin-bottom: 4%;
+    width: 98%;
+  }
+
+  .form-add-responsive{
+    font-size: 13px;
+  }
+}
+
+.login-out-button {
+  position: absolute;
+  top: 5px;
+  right: 3vw;
+  width: 100px;
+  height: 40px;
+  border-color: #ffffff !important;
+  background-color: #ffffff !important;
+  color: #FF7C11  !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-size: large !important;
+  font-weight: 600 !important;
+}
+
+.logged-text {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 3vw;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Impact, fantasy";
+}
+
+.list-container {
+  border: outset;
+  border-width: medium;
+  border-color: #FF7C11;
+  border-radius: 8px;
+  margin: 5%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.course-row {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: outset;
+}
+
+.rounded-border {
+  border-radius: 12px;
+}
+
+.course-row{
+  width: 98%;
+}
+
+.header-row {
+  margin-left: 0;
+  position: relative;
+  background-color: #003576;
+  color: white;
+  font-size: 21px;
+  font-family:'Times New Roman', Times, serif;
+  padding: 5px;
+  
+  border-radius: 12px;
+  width: 98%;
+}
+
+.title-list-courses{
+  position: relative;
+  left: 1%;
+}
+
+@media only screen and (max-width: 900px ){
+  .login-form-container{
+    border: outset;
+    border-width: medium;
+    border-color: #003576;
+    border-radius: 25px;
+    margin: 5%;
+    background-color: aliceblue;
+  }
+
+  .login-form-container-2{
+    border: outset;
+    border-width: medium;
+    border-color: #dbebff;
+    border-radius: 8px;
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .form-text {
+    font-size: 20px;
+    font-family: var(--bs-body-font-family);
+    margin: 5%;
+  }
+
+  .login-form-title{
+    position: relative;
+    left: 42%;
+    top: 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .login-submit {
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  .no-plan-container {
+    position: relative;
+    top: 5vw;
+    left: 7vw;
+    margin: 4%;
+    width: 80vw;
+  }
+  
+  .plan-creation-button {
+    position: relative;
+    top: 8vw;
+    left: 22vw;
+    margin: 4%;
+    margin-bottom: 70%;
+    width: 30vw;
+  }
+}
+
+@media only screen and (min-width: 900px ){
+  .login-form-container{
+    border: outset;
+    border-width: medium;
+    border-color: #003576;
+    border-radius: 25px;
+    margin: 25%;
+    margin-bottom: 7%;
+    margin-top: 5%;
+    background-color: aliceblue;
+  }
+
+  .login-form-container-2{
+    border: outset;
+    border-width: medium;
+    border-color: #dbebff;
+    border-radius: 8px;
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .form-text {
+    font-size: 20px;
+    font-family: var(--bs-body-font-family);
+    margin: 5%;
+    margin-top: 20%;
+  }
+
+  .login-form-title{
+    width: 90px;
+    position: relative;
+    left: 42%;
+    top: 5px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+
+  .login-submit {
+    position: relative;
+    left: 25%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+
+  .no-plan-container {
+    position: relative;
+    top: 2vw;
+    left: 30%;
+    margin: 4%;
+    width: 30vw;
+  }
+  
+  .plan-creation-button {
+    position: relative;
+    top: 2vw;
+    left: 38vw;
+    margin: 4%;
+    margin-bottom: 25%;
+    width: 30vw;
+
+  }
+}
+
+.footer-container{
+  position: relative;
+  background-color: #ffffff;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;  
+  width: 100%;    /* Height of the footer*/ 
+  height: 100px;
+}
+
+.error-background {
+  background-color: #ffaeae95;
+}
+
+.correct-background {
+  background-color: #aeeeae95;
+}
+
+.logged-as-text {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 2vw;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Impact, fantasy";
+}
+
+.default-route {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin: 6vw;
+  top: 15%;
+  left: 23%;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
